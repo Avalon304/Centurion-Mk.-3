@@ -50,6 +50,41 @@
       <maxRegenHealth>	150	</maxRegenHealth>
       <repairCost>1.0</repairCost>
     </ammoBayHealth>
+	<variants>
+		<hull2>
+				<turret0>Turret_1_GB23_Centurion</turret0>
+				<models>
+					<undamaged>vehicles/british/GB23_Centurion/normal/lod0/Hull.model</undamaged>
+					<destroyed>vehicles/british/GB23_Centurion/crash/lod0/Hull.model</destroyed>
+					<exploded>vehicles/british/GB23_Centurion/crash/lod0/Hull.model</exploded>
+				</models>
+    <turretPositions>
+      <turret>0.000000 0.428685 0.38725</turret>
+    </turretPositions>
+				<turretHardPoints>
+					<hardPoint>HP_turretJoint</hardPoint>
+				</turretHardPoints>
+    <emblemSlots>
+      <clan>
+        <rayStart>1.85603 0.129645 2.5516</rayStart>
+        <rayEnd>1.45603 0.129645 2.5516</rayEnd>
+        <rayUp>0.000000 1 0.000000</rayUp>
+        <size>0.28</size>
+        <hideIfDamaged>	true	</hideIfDamaged>
+      </clan>
+      <inscription>
+        <rayStart>-1.85176 0.0756454 2.1144</rayStart>
+        <rayEnd>-1.45176 0.0756454 2.1144</rayEnd>
+        <rayUp>0.000000 1 0.000000</rayUp>
+        <size>0.8</size>
+        <hideIfDamaged>	true	</hideIfDamaged>
+      </inscription>
+    </emblemSlots>
+    <camouflage>
+      <tiling>1.12 1.12 0.000000 0.000000</tiling>
+    </camouflage>
+		</hull2>
+	</variants>
     <models>
       <undamaged>vehicles/Avalon's WoT Workshop/GB23_Centurion/normal/lod0/Hull.model</undamaged>
       <destroyed>vehicles/british/GB23_Centurion/crash/lod0/Hull.model</destroyed>
@@ -128,24 +163,11 @@
       <maxHealth>	180	</maxHealth>
       <maxRegenHealth>	135	</maxRegenHealth>
       <repairCost>5.0</repairCost>
-       <models>
-        <undamaged>vehicles/Avalon's WoT Workshop/GB23_Centurion/normal/lod0/Chassis.model</undamaged>
+      <models>
+        <undamaged>vehicles/british/GB23_Centurion/normal/lod0/Chassis.model</undamaged>
         <destroyed>vehicles/british/GB23_Centurion/crash/lod0/Chassis.model</destroyed>
         <exploded>vehicles/british/GB23_Centurion/crash/lod0/Chassis.model</exploded>
       </models>
-      <splineDesc>
-        <segmentModelLeft>vehicles/british/GB81_FV4004/track/segment.model</segmentModelLeft>
-        <segmentModelRight>vehicles/british/GB81_FV4004/track/segment.model</segmentModelRight>
-        <left>vehicles/british/GB81_FV4004/track/left.track</left>
-        <right>vehicles/british/GB81_FV4004/track/right.track</right>
-        <segmentLength>0.142</segmentLength>
-        <segmentOffset>0.066</segmentOffset>
-        <lodDist>MEDIUM</lodDist>
-        <atlas>
-          <UTiles>	1	</UTiles>
-          <VTiles>	1	</VTiles>
-        </atlas>
-      </splineDesc>
       <traces>
         <lodDist>FAR</lodDist>
         <bufferPrefs>largeTank</bufferPrefs>
@@ -156,7 +178,7 @@
         <lodDist>MEDIUM_TRACK</lodDist>
         <leftMaterial>track_mat_L_skinned</leftMaterial>
         <rightMaterial>track_mat_R_skinned</rightMaterial>
-        <textureScale>-1.45</textureScale>
+        <textureScale>-1.43</textureScale>
       </tracks>
       <wheels>
         <lodDist>MEDIUM</lodDist>
@@ -164,27 +186,27 @@
           <isLeft>	false	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_R0</name>
-          <radius>0.33978</radius>
+          <radius>0.35049</radius>
           <syncAngle>22.5</syncAngle>
         </wheel>
         <group>
           <isLeft>	false	</isLeft>
           <template>WD_R</template>
-          <radius>	0.124628	</radius>
+          <radius>	0.136053	</radius>
           <startIndex>	1	</startIndex>
-          <count>	6	</count>
+          <count>	5	</count>
         </group>
         <wheel>
           <isLeft>	false	</isLeft>
           <isLeading>	true	</isLeading>
-          <name>WD_R7</name>
-          <radius>	0.423704	</radius>
+          <name>WD_R6</name>
+          <radius>	0.425787	</radius>
           <syncAngle>22.5</syncAngle>
         </wheel>
         <group>
           <isLeft>	false	</isLeft>
           <template>W_R</template>
-          <radius>0.42508</radius>
+          <radius>	0.433345	</radius>
           <startIndex>	0	</startIndex>
           <count>	6	</count>
         </group>
@@ -192,167 +214,206 @@
           <isLeft>	true	</isLeft>
           <isLeading>	true	</isLeading>
           <name>WD_L0</name>
-          <radius>	0.339766	</radius>
+          <radius>0.35049</radius>
           <syncAngle>22.5</syncAngle>
         </wheel>
         <group>
           <isLeft>	true	</isLeft>
           <template>WD_L</template>
-          <radius>	0.124602	</radius>
+          <radius>	0.136053	</radius>
           <startIndex>	1	</startIndex>
-          <count>	6	</count>
+          <count>	5	</count>
         </group>
         <wheel>
           <isLeft>	true	</isLeft>
           <isLeading>	true	</isLeading>
-          <name>WD_L7</name>
-          <radius>	0.423704	</radius>
+          <name>WD_L6</name>
+          <radius>	0.425787	</radius>
           <syncAngle>22.5</syncAngle>
         </wheel>
         <group>
           <isLeft>	true	</isLeft>
           <template>W_L</template>
-          <radius>0.425</radius>
+          <radius>	0.433344	</radius>
           <startIndex>	0	</startIndex>
           <count>	6	</count>
         </group>
       </wheels>
-      <groundNodes>
-        <group>
-          <template>Track_L</template>
-          <startIndex>	0	</startIndex>
-          <count>	6	</count>
-          <isLeft>	true	</isLeft>
-          <minOffset>-0.1</minOffset>
-          <maxOffset>0.1</maxOffset>
-        </group>
-        <group>
-          <template>Track_R</template>
-          <startIndex>	0	</startIndex>
-          <count>	6	</count>
-          <isLeft>	false	</isLeft>
-          <minOffset>-0.1</minOffset>
-          <maxOffset>0.1</maxOffset>
-        </group>
-      </groundNodes>
-      <trackThickness>-0.0073</trackThickness>
-      <trackNodes>
-        <enable>	true	</enable>
-        <linkBones>	false	</linkBones>
-        <maxAmplitude>0.1</maxAmplitude>
-        <maxOffset>0.1</maxOffset>
-        <gravity>-9.8</gravity>
-        <elasticity>	1000	</elasticity>
-        <damping>	2	</damping>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VD_L0</name>
-          <forwardElastK>1.5</forwardElastK>
-          <backwardElastK>1.5</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VD_R0</name>
-          <forwardElastK>1.5</forwardElastK>
-          <backwardElastK>1.5</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VD_L1</name>
-          <forwardElastK>2.5</forwardElastK>
-          <backwardElastK>	1	</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VD_R1</name>
-          <forwardElastK>2.5</forwardElastK>
-          <backwardElastK>	1	</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VT_L0</name>
-          <forwardElastK>0.91</forwardElastK>
-        </node>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VT_L1</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VT_L2</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VT_L3</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	true	</isLeft>
-          <name>Track_VT_L4</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VT_R0</name>
-          <forwardElastK>0.91</forwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VT_R1</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VT_R2</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VT_R3</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-        <node>
-          <isLeft>	false	</isLeft>
-          <name>Track_VT_R4</name>
-          <forwardElastK>0.91</forwardElastK>
-          <backwardElastK>1.93</backwardElastK>
-        </node>
-      </trackNodes>
-      <drivingWheels>WD_L0 WD_L7</drivingWheels>
+      <drivingWheels>WD_L0 WD_L6</drivingWheels>
       <effects>
         <lodDist>MEDIUM</lodDist>
         <mud>	largeTankMud	</mud>
       </effects>
       <wwsoundPC>treads_type_pc</wwsoundPC>
       <wwsoundNPC>trds_chf_npc</wwsoundNPC>
-      <hullPosition>0.000000 1.18871 0.000000</hullPosition>
+      <hullPosition>0.000000 1.21601 0.000000</hullPosition>
       <hitTester>
         <collisionModelServer>vehicles/british/GB23_Centurion/collision/Chassis.model</collisionModelServer>
         <collisionModelClient>vehicles/british/GB23_Centurion/collision_client/Chassis.model</collisionModelClient>
       </hitTester>
-      <topRightCarryingPoint>1.30183 2.32619</topRightCarryingPoint>
+      <topRightCarryingPoint>1.30814 2.33896</topRightCarryingPoint>
       <maxClimbAngle>	25	</maxClimbAngle>
       <navmeshGirth>6.0</navmeshGirth>
-      <trackThickness>-0.0073</trackThickness>
       <AODecals>
         <decal>
           <transform>
-            <row0>	4.493440 0.000000 0.000000	</row0>
-            <row1>	0.000000 1.739680 0.000000	</row1>
-            <row2>	0.000000 0.000000 8.845830	</row2>
+            <row0>	4.709630 0.000000 0.000000	</row0>
+            <row1>	0.000000 1.592220 0.000000	</row1>
+            <row2>	0.000000 0.000000 9.470400	</row2>
             <row3>	0.000000 0.000000 0.000000	</row3>
           </transform>
         </decal>
       </AODecals>
+      <splineDesc>
+        <segmentModelLeft>vehicles/british/GB23_Centurion/track/segment.model</segmentModelLeft>
+        <segmentModelRight>vehicles/british/GB23_Centurion/track/segment.model</segmentModelRight>
+        <left>vehicles/british/GB23_Centurion/track/left.track</left>
+        <right>vehicles/british/GB23_Centurion/track/right.track</right>
+        <segmentLength>0.139</segmentLength>
+        <segmentOffset>0.183</segmentOffset>
+        <lodDist>MEDIUM</lodDist>
+        <atlas>
+          <UTiles>	1	</UTiles>
+          <VTiles>	1	</VTiles>
+        </atlas>
+      </splineDesc>
+      <trackThickness>-0.0069</trackThickness>
+      <trackNodes>
+        <enable>	true	</enable>
+        <linkBones>	false	</linkBones>
+        <maxAmplitude>0.2</maxAmplitude>
+        <maxOffset>0.2</maxOffset>
+        <gravity>-9.8</gravity>
+        <elasticity>	1050	</elasticity>
+        <damping>	2	</damping>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VT_L0</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.2</backwardElastK>
+          <offset>-0.085</offset>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VD_R0</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.5</backwardElastK>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VT_L1</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.4</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VT_L2</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.6</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VT_L3</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.8</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VT_L4</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>	2	</backwardElastK>
+          <offset>-0.065</offset>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VT_L5</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>2.2</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VD_L0</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.5</backwardElastK>
+        </node>
+        <node>
+          <isLeft>	true	</isLeft>
+          <name>Track_VD_L1</name>
+          <forwardElastK>1.5</forwardElastK>
+
+          <backwardElastK>0.75</backwardElastK>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VD_R1</name>
+          <forwardElastK>1.5</forwardElastK>
+          <backwardElastK>0.75</backwardElastK>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VT_R0</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.2</backwardElastK>
+          <offset>-0.085</offset>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VT_R1</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.4</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VT_R2</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.6</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VT_R3</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>1.8</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VT_R4</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>	2	</backwardElastK>
+          <offset>-0.065</offset>
+        </node>
+        <node>
+          <isLeft>	false	</isLeft>
+          <name>Track_VT_R5</name>
+          <forwardElastK>0.75</forwardElastK>
+          <backwardElastK>2.2</backwardElastK>
+          <offset>-0.121</offset>
+        </node>
+      </trackNodes>
+      <groundNodes>
+        <group>
+          <template>Track_L</template>
+          <startIndex>	0	</startIndex>
+          <count>	6	</count>
+          <isLeft>	true	</isLeft>
+          <minOffset>-0.07</minOffset>
+          <maxOffset>0.07</maxOffset>
+        </group>
+        <group>
+          <template>Track_R</template>
+          <startIndex>	0	</startIndex>
+          <count>	6	</count>
+          <isLeft>	false	</isLeft>
+          <minOffset>-0.07</minOffset>
+          <maxOffset>0.07</maxOffset>
+        </group>
+      </groundNodes>
     </Chassis_GB23_Centurion>
     <Chassis_GB23_Centurion_2>
       <userString>#gb_vehicles:Chassis_GB23_Centurion_2</userString>

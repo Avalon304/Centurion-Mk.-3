@@ -137,6 +137,10 @@
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/FV4004_hull_01_AO.dds</Texture>
 					</property>
 					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/FV4004_hull_01_ID.dds</Texture>
+					</property>
+					<property>
 						g_detailPowerGloss
 						<Float>0.35</Float>
 					</property>
@@ -193,6 +197,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_81_Hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_81_Hull_01_ID.dds</Texture>
 					</property>
 					<property>
 						alphaReference
@@ -269,6 +277,10 @@
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_S1_hull_02_AO.dds</Texture>
 					</property>
 					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_S1_hull_02_ID.dds</Texture>
+					</property>
+					<property>
 						g_detailPowerGloss
 						<Float>0.35</Float>
 					</property>
@@ -339,6 +351,10 @@
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Churchill_LL_hull_01_AO.dds</Texture>
 					</property>
 					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_S1_hull_02_ID.dds</Texture>
+					</property>
+					<property>
 						g_detailPowerGloss
 						<Float>0.35</Float>
 					</property>
@@ -399,6 +415,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Object268_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Object268_hull_01_ID.dds</Texture>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -465,6 +485,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/PzV_Panther_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_S1_hull_02_ID.dds</Texture>
 					</property>
 					<property>
 						g_detailPowerGloss
@@ -535,6 +559,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_81_sabaton_Hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_81_Hull_01_ID.dds</Texture>
 					</property>
 					<property>
 						g_detailPowerGloss

@@ -106,6 +106,10 @@
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_81_Guns_AO.dds</Texture>
 					</property>
 					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_81_Guns_ID.dds</Texture>
+					</property>
+					<property>
 						g_detailUVTiling
 						<Vector4>3.50685 3.50685 0.000000 0.000000</Vector4>
 					</property>
@@ -165,6 +169,10 @@
 					<property>
 						excludeMaskAndAOMap
 						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Centurion_guns_AO.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Centurion_guns_ID.dds</Texture>
 					</property>
 					<property>
 						g_detailUVTiling

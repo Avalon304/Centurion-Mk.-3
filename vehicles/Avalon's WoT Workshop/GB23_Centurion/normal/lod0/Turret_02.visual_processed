@@ -272,7 +272,7 @@
 					</property>
 					<property>
 						colorIdMap
-						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/Strv_S1_hull_02_ID.dds</Texture>
+						<Texture>vehicles/Avalon's WoT Workshop/GB23_Centurion/M18_Hellcat_turret_02_ID.dds</Texture>
 					</property>
 					<property>
 						g_detailPowerGloss
